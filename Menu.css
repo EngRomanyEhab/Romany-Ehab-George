@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}/*navpar*/
+@media (min-width:600px) {
+    
+
+.nav{
+   /* height: 100px;*/
+    background-color:  #e9e8ed;
+    display: flex;
+    align-items: center;
+}
+.nav img {
+    width: 150px;
+    padding: 10px 20px;
+    margin-left: 1%;
+}
+.nav .link{
+    display: flex;
+   margin-left: 5%;}
+.nav .link a{
+    text-decoration: none;
+    color: #816968;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.nav .link .a1{
+    color: #52302c;
+}
+}/*end of navpar*/
+.Menu{
+    font-size: 100px;
+    text-align: center;
+    color: brown;
+    margin-top: 50px;
+}
+.products{
+    /* background-color: aqua;*/
+     padding: 5%;
+    /* display: flex;
+     justify-content: left;
+     flex-wrap: wrap;*/
+    /* display: grid;
+     grid-template-columns: 300px 300px;
+     justify-content: space-around;*/
+     text-align: center;
+     
+ }
+ .products .product{
+    /* background-color: #52302c;*/
+    text-align: center;
+ }
+ .products .product img{
+     width: 30%;
+     
+ 
+ }
+ 
+ 
+ .products .product .describe{
+     background-color: #f7f7f7;
+     padding: 50px 20px 20px 20px ;
+     width: 30%;
+     height: 200px;
+     border-radius: 10px;
+     text-align: center;
+     margin-left: 35%;
+     
+ }
+ .products .product .describe b{
+     font-size: 25px;
+ }
+ .products .product .describe p{
+     color: #a6a6a6;
+     font-size: 20px;
+     padding: 10px;
+     
+ }
+ .products .product .describe .price{
+     color: black;
+     font: bold;
+     margin-top: 20px;
+     
+ }
+ /*footer*/
+.footer{
+    height: 230px;
+    background-color: #444444;
+    color: RGB(136, 136, 136);
+    padding-top: 80px;
+    display: grid;
+   grid-template-columns: 300px 100px 150px 300px;
+   justify-content: space-around;
+}
+.footer .part2 .num{
+    color: rgb(105, 105, 255);
+    margin-top: 10px;}
+.footer b{
+    color: white;
+   
+}
+.footer i{
+    margin: 20px 4px;
+}
+.footer p{
+    margin-bottom: 15px;
+}
+.footer a{
+   text-decoration: none;
+   /* background-color: RGB(13, 133, 202);*/
+    color: white;
+    
+    margin-right: 10px;
+    margin-top: 10px;
+   /* padding: 5px 10px;
+    border-radius: 10px ;
+   /* margin: 50px 100px;*/
+}
+.footer input{
+    width: 230px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid RGB(135, 135, 135) ;
+    
+}
+/*end of footer*/
